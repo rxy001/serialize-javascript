@@ -1,15 +1,17 @@
 {
-  "name": "serialize-javascript",
-  "version": "6.0.2",
+  "name": "@x1ngyu/serialize-javascript",
+  "version": "7.1.0",
+  "private": false,
   "description": "Serialize JavaScript to a superset of JSON that includes regular expressions and functions.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "benchmark": "node -v && node test/benchmark/serialize.js",
     "test": "node --test test/unit/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yahoo/serialize-javascript.git"
+    "url": "https://github.com/rxy001/serialize-javascript"
   },
   "keywords": [
     "serialize",
@@ -28,6 +30,6 @@
     "benchmark": "^2.1.4"
   },
   "dependencies": {
-    "randombytes": "^2.1.0"
+    "buffer": "^6.0.3"
   }
 }
